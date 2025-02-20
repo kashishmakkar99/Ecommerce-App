@@ -1,2 +1,2 @@
 # Ecommerce-App
-Ecommerce app using spring boot and angular 18
+Ecommerce app using spring boot 3 and angular 18
