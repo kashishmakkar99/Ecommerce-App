@@ -7,6 +7,6 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   selector: 'ecom-navbar',
   imports: [CommonModule,RouterLink,FontAwesomeModule],
   templateUrl: './navbar.component.html',
-  styleUrl: './navbar.component.css',
+  styleUrl: './navbar.component.scss',
 })
 export class NavbarComponent {}
