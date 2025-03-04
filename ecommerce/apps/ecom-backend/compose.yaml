@@ -4,8 +4,8 @@ services:
     ports:
       - '5432:5432'
     environment:
-      - 'POSTGRES_USER=bigmakk'
-      - 'POSTGRES_DB=easier'
-      - 'POSTGRES_PASSWORD=@26October'
+      POSTGRES_USER: postgres
+      POSTGRES_DB: easier
+      POSTGRES_PASSWORD: '@26October'
     volumes:
-      - './volumes/bigmakk/postgres:/var/lib/postgres/data'
+      - './volumes/bigmakk/postgres:/var/lib/postgresql/data'

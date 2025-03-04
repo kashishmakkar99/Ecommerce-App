@@ -2,7 +2,7 @@ logging:
   level:
     ROOT: INFO
     org.hibernate.SQL: INFO
-    fr.codecake.ecom: INFO
+    com.bigmakk.ecom: INFO
 
 spring:
   application:
@@ -34,7 +34,7 @@ spring:
         connection:
           provider_disables_autocommit: true
         order_inserts: true
-        default_schema: ecommerce_yt
+        default_schema: public
     hibernate:
       ddl-auto: validate
       naming:
@@ -43,7 +43,7 @@ spring:
     open-in-view: false
   liquibase:
     change-log: classpath:db/changelog/master.xml
-    default-schema: ecommerce_yt
+    default-schema: public
     contexts: dev
   #    drop-first: true
   security:
