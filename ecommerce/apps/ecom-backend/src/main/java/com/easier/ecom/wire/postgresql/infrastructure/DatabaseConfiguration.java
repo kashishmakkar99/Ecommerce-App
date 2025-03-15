@@ -13,4 +13,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableSpringDataWebSupport(pageSerializationMode = EnableSpringDataWebSupport.PageSerializationMode.VIA_DTO)
 public class DatabaseConfiguration {
 
+
+
+
 }
